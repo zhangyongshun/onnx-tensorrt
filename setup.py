@@ -60,7 +60,7 @@ nv_onnx_parser_module = Extension(
     sources=['nv_onnx_parser_bindings.i'],
     swig_opts=SWIG_OPTS,
     extra_objects=[
-        'build/libnvonnxparser.so',
+        '/data/TensorRT-5.0.2.6/targets/x86_64-linux-gnu/lib/libnvonnxparser.so',
     ],
     include_dirs=INC_DIRS,
     extra_compile_args=EXTRA_COMPILE_ARGS,
