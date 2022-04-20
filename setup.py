@@ -71,7 +71,7 @@ nv_onnx_runtime_module = Extension(
     sources=['nv_onnx_runtime_bindings.i'],
     swig_opts=SWIG_OPTS,
     extra_objects=[
-        'build/libnvonnxparser_runtime.so',
+        '/data/TensorRT-5.0.2.6/targets/x86_64-linux-gnu/lib/libnvonnxparser_runtime.so',
     ],
     include_dirs=INC_DIRS,
     extra_compile_args=EXTRA_COMPILE_ARGS,
