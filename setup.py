@@ -22,7 +22,7 @@ from setuptools import setup, find_packages, Extension
 
 __version__ = '0.1.0'
 
-INC_DIRS = []
+INC_DIRS = ['/data/TensorRT-5.0.2.6/include']
 
 SWIG_OPTS = [
     '-c++',
